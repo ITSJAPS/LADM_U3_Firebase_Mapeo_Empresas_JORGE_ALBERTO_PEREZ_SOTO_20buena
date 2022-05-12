@@ -21,7 +21,6 @@ class AgrgarSubDepartamento : AppCompatActivity() {
 
     var idArea2=""
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         binding= ActivityAgrgarSubDepartamentoBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
@@ -60,7 +59,7 @@ class AgrgarSubDepartamento : AppCompatActivity() {
             binding.edificio.setText("")
             binding.textopiso.setText("")
 
-            mostrarEnLista()
+
 
         }
 
@@ -74,7 +73,7 @@ class AgrgarSubDepartamento : AppCompatActivity() {
 
 
     private fun mostrarEnLista() {
-        baseRemota.collection("area").document(idArea2).collection("subDepartamento")
+        FirebaseFirestore.getInstance().collection("area").document(idArea2).collection("subDepartamento")
             .addSnapshotListener { query, error ->
                 if (error != null) {
                     //si hubo error!
@@ -130,7 +129,7 @@ class AgrgarSubDepartamento : AppCompatActivity() {
             .delete()
             .addOnSuccessListener {
                 Toast.makeText(este,"Se Elimino con exito!", Toast.LENGTH_LONG).show()
-                mostrarEnLista()
+
             }
             .addOnFailureListener{
                 AlertDialog.Builder(este)
@@ -181,7 +180,7 @@ class AgrgarSubDepartamento : AppCompatActivity() {
                     binding.actualizar.isEnabled=false
                     binding.regresar.setText("Regresar")
 
-                    mostrarEnLista()
+
 
 
                 }

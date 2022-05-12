@@ -89,7 +89,7 @@ class AreaFragment : Fragment() {
                 for (documento in query!!) {
                     val cadena = " Descripcion: ${documento.getString("descripcion")}\n" +
                             " Division: ${documento.getString("division")}\n" +
-                            " No. de Empleados: ${documento.getLong("canEmpleados")}"
+                            " No. de Empleados: ${documento.getLong("canEmpleados").toString()}"
 
 
                     dataLista.add(cadena)

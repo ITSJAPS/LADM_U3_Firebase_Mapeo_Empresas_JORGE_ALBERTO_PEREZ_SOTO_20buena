@@ -48,6 +48,18 @@ class ConsultaFragment : Fragment() {
             consultarDivision()
         }
 
+        binding.edificio.setOnClickListener {
+            consultarEdificio()
+        }
+        binding.subdivision.setOnClickListener {
+
+        }
+        binding.subdescripcion.setOnClickListener {
+
+        }
+
+
+
 
 
 
@@ -132,6 +144,42 @@ class ConsultaFragment : Fragment() {
             }
     }
 
+    private fun consultarEdificio() {
+        FirebaseFirestore.getInstance().collection("area").document()
+            .collection("subDepartamento")
+            .addSnapshotListener { query, error ->
+                if (error != null) {
+                    //si hubo error!
+                    AlertDialog.Builder(this.requireContext())
+                        .setMessage(error.message)
+                        .show()
+                    return@addSnapshotListener
+                }
+
+                dataLista.clear()
+                for (documento in query!!) {
+                    val cadena = "Edificio: ${documento.getString("idEdificio")}"
+
+
+                    dataLista.add(cadena)
+
+                    listaID.add(documento.id)
+                }
+                binding.lista.adapter = ArrayAdapter<String>(
+                    this.requireContext(),
+                    R.layout.simple_list_item_1, dataLista
+                )
+                binding.lista.setOnItemClickListener { adapter, view, posicion, l ->
+                    AlertDialog.Builder(this.requireContext()).setTitle("Contenido")
+                        .setMessage("${dataLista.get(posicion)}")
+
+                        .setNeutralButton("Cancelar") { d, i ->
+                        }
+                        .show()
+                }
+
+            }
+    }
 
 
 

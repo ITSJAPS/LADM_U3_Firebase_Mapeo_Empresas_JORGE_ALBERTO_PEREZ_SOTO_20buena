@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo Pro/AndroidStudioProjects/Respaldos/LADM_U3_Firebase_Mapeo_Empresas_JORGE_ALBERTO_PEREZ_SOTO_20buena/app/src/main/res/layout/activity_agrgar_sub_departamento.xml" value="0.209375" />
+        <entry key="..\:/Users/Lenovo Pro/AndroidStudioProjects/Respaldos/LADM_U3_Firebase_Mapeo_Empresas_JORGE_ALBERTO_PEREZ_SOTO_20buena/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo Pro/AndroidStudioProjects/Respaldos/LADM_U3_Firebase_Mapeo_Empresas_JORGE_ALBERTO_PEREZ_SOTO_20buena/app/src/main/res/layout/fragment_area.xml" value="0.18" />
+        <entry key="..\:/Users/Lenovo Pro/AndroidStudioProjects/Respaldos/LADM_U3_Firebase_Mapeo_Empresas_JORGE_ALBERTO_PEREZ_SOTO_20buena/app/src/main/res/layout/fragment_consulta.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo Pro/AndroidStudioProjects/Respaldos/LADM_U3_Firebase_Mapeo_Empresas_JORGE_ALBERTO_PEREZ_SOTO_20buena/app/src/main/res/layout/fragment_home.xml" value="0.10182370820668693" />
+        <entry key="..\:/Users/Lenovo Pro/AndroidStudioProjects/Respaldos/LADM_U3_Firebase_Mapeo_Empresas_JORGE_ALBERTO_PEREZ_SOTO_20buena/app/src/main/res/menu/bottom_nav_menu.xml" value="0.10648148148148148" />
+        <entry key="..\:/Users/Lenovo Pro/AndroidStudioProjects/Respaldos/LADM_U3_Firebase_Mapeo_Empresas_JORGE_ALBERTO_PEREZ_SOTO_20buena/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo Pro/AndroidStudioProjects/Respaldos/LADM_U3_Firebase_Mapeo_Empresas_JORGE_ALBERTO_PEREZ_SOTO_20buena/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

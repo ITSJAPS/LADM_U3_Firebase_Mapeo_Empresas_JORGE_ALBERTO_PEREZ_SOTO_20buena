@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "177315802076",
+    "project_id": "empresasu3a2",
+    "storage_bucket": "empresasu3a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177315802076:android:d25385ed5d445c64633d19",
+        "android_client_info": {
+          "package_name": "com.example.ladm_u3_firebase_mapeo_empresas_jorge_alberto_perez_soto_20buena"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177315802076-8u022h2bdno58p95oo2d0jbpehenoh1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAefew1ysLuJdeqeH6FbSK6SCjs7vyug5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177315802076-8u022h2bdno58p95oo2d0jbpehenoh1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
